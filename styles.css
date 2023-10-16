@@ -1,0 +1,62 @@
+/* Reset some default styles and apply a simple background color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the product container */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Style individual product items */
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+}
+
+.product .price {
+    font-weight: bold;
+}
+
+/* Style the "Add to Cart" button */
+.product button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
