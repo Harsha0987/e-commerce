@@ -1,0 +1,1 @@
+The "E-commerce Platform" is a full-stack web application that provides a robust and scalable solution for building an online marketplace. This project showcases the development of a feature-rich e-commerce platform, including frontend and backend components, to facilitate online buying and selling.
